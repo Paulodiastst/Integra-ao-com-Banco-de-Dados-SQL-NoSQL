@@ -59,10 +59,10 @@ Ao longo do curso, você desenvolvedor um projeto mobile modelo, implementará t
 
 #
 
-## 📝 Executando a Classe AppDataBase para criar o Banco de Dados SQLite.
+## 📝 Realm NoSQL - Gradle Dependências Real para projetps Android em Java.
 
   <p align="center">
-<img src="https://user-images.githubusercontent.com/79487813/172026291-0489cf6c-5d9b-4a7d-921a-b0e9114496e2.png"/></P>
+<img src="https://user-images.githubusercontent.com/79487813/172218126-44a6ebf6-bb8a-459f-a915-e716f241b3a9.png"/></P>
 
 ## 📝 Tipos de Dados suportados pelo SQLite para criar tabelas.
 
