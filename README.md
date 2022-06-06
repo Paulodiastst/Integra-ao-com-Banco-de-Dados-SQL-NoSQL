@@ -74,7 +74,11 @@ Ao longo do curso, você desenvolvedor um projeto mobile modelo, implementará t
 - Criação do objeto padrão Singleton - Só vai ser gerado um objeto no banco de dados durante toda aplicação, não vai corre o risco de ficar com objeto aberto, perdido etc...
 
 <br>
-
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79487813/172223659-e9a21bb3-c9f2-4009-b2af-8b0434b039bc.png"/></P>
-- Informações do banco de dados criado.#
+- Informações do banco de dados criado.
+
+## 📝 Mapeamento de Classe Java usando Annotations com Realm.
+
+  <p align="center">
+<img src="https://user-images.githubusercontent.com/79487813/172235551-44d25eae-fd3e-4f7f-8d7e-ca7b7f29a5b9.png"/></P>
