@@ -61,35 +61,20 @@ Ao longo do curso, você desenvolvedor um projeto mobile modelo, implementará t
 
 ## 📝 Realm NoSQL - Gradle Dependências Real para projetps Android em Java.
 
+- SQLite: https://www.mongodb.com/docs/realm/sdk/java/install/
+
   <p align="center">
 <img src="https://user-images.githubusercontent.com/79487813/172218126-44a6ebf6-bb8a-459f-a915-e716f241b3a9.png"/></P>
+<br>
 
-## 📝 Tipos de Dados suportados pelo SQLite para criar tabelas.
-
-- SQLite: https://www.sqlite.org/datatype3.html
-
-  <p align="center">
-<img src="https://user-images.githubusercontent.com/79487813/172027656-79aff9ed-829c-439b-b40e-bc7fada35b02.png"/></P>
-
-## 📝 Hands on - Programação Java para criar a tabela Aluno do Dabase SQLite.
-
-- SQLite: https://www.sqlite.org/datatype3.html
-
-    <p align="center">
-  <img src="https://user-images.githubusercontent.com/79487813/172028673-d052de41-bcee-4ecd-889d-3f55e59f8f54.png"/></P>
-
-    <p align="center">
-  <img src="https://user-images.githubusercontent.com/79487813/172028781-c53a7ee4-74aa-4d24-965f-ec76026a86dc.png"/></P>
-
-# 📝 Implementação do método ALTERAR da CONTROLLER e UPDATER AppDataBase
+## 📝 Classe AppApplication para criar o Banco de Dados MongoDB NoSQL Real.
 
   <p align="center">
-  <img src="https://user-images.githubusercontent.com/79487813/172067316-5caf665e-43fc-4298-b3d9-4b948cbfc178.gif"/></P>
+<img src="https://user-images.githubusercontent.com/79487813/172221784-2282e9ed-1dbc-4255-ac89-ad93ffc84320.png"/></P>
+- Criação do objeto padrão Singleton - Só vai ser gerado um objeto no banco de dados durante toda aplicação, não vai corre o risco de ficar com objeto aberto, perdido etc...
 
-# 📝 Teste solicitado: Incluir 15 registros com dados aleatórios na tabela ALUNO e liste os dados no log.
+<br>
 
-  <p align="center">
-  <img src="https://user-images.githubusercontent.com/79487813/172079050-af6869c8-1067-4cea-b6c1-7a2e9c6cf5cc.png"/></P>
-
-  <p align="center">
-  <img src="https://user-images.githubusercontent.com/79487813/172079066-6179bcd3-e82d-427f-9442-0c8460baed07.png"/></P>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79487813/172223659-e9a21bb3-c9f2-4009-b2af-8b0434b039bc.png"/></P>
+- Informações do banco de dados criado.#
