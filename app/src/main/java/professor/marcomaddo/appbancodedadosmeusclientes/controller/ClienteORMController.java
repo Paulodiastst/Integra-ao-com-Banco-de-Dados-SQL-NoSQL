@@ -1,11 +1,14 @@
 package professor.marcomaddo.appbancodedadosmeusclientes.controller;
 
+import android.util.Log;
+
 import io.realm.Realm;
+import io.realm.RealmResults;
 import professor.marcomaddo.appbancodedadosmeusclientes.model.ClienteORM;
 
 public class ClienteORMController {
 
-    public void insert(ClienteORM obj){
+    public void insert(ClienteORM obj) {
 
         Realm realm = Realm.getDefaultInstance();
 
@@ -20,9 +23,11 @@ public class ClienteORMController {
         realm.commitTransaction();
         realm.close();
 
+        Log.d("db_log", "insert: " + obj.getId());
+
     }
 
-    public void update(ClienteORM obj){
+    public void update(ClienteORM obj) {
 
         Realm realm = Realm.getDefaultInstance();
 
@@ -48,4 +53,35 @@ public class ClienteORMController {
 
     }
 
+    public void delete(ClienteORM obj) {
+
+        Realm realm = Realm.getDefaultInstance();
+
+        realm.beginTransaction();
+        RealmResults<ClienteORM> results = realm.where(ClienteORM.class).equalTo("id",
+                obj.getId()).findAll();
+
+        results.deleteAllFromRealm();
+
+        realm.commitTransaction();
+
+        realm.close();
+
+    }
+
+    public void deleteById(int id) {
+
+        Realm realm = Realm.getDefaultInstance();
+
+        realm.beginTransaction();
+        RealmResults<ClienteORM> results = realm.where(ClienteORM.class).equalTo("id",
+                id).findAll();
+
+        results.deleteAllFromRealm();
+
+        realm.commitTransaction();
+
+        realm.close();
+
+    }
 }

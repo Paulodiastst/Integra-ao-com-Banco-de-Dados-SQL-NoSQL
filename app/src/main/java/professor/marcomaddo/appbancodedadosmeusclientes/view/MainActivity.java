@@ -20,20 +20,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         clienteORMController = new ClienteORMController();
 
-        ClienteORM orm = new ClienteORM();
-        orm.setId(1);
-        orm.setNome("Paulo Roberto");
-        orm.setIdade(19);
-        orm.setPreco(13.97);
-        orm.setSalario(789.97);
-        orm.setDataCadastro("20/01/2022");
-        orm.setHoraCadastro("20:20");
-        orm.setAtivo(true);
 
-        clienteORMController.update(orm);
+        for (int i = 21; i < 28 ; i++){
 
+
+        clienteORMController.deleteById(i);
+
+        }
     }
 }
