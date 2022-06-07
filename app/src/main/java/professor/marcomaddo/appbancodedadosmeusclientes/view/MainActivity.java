@@ -26,6 +26,12 @@ public class MainActivity extends AppCompatActivity {
 
         clienteORMController = new ClienteORMController();
 
+        ClienteORM objConsulta = clienteORMController.getById(28);
+
+        if (objConsulta != null)
+            Log.d("db_log", "onCreate: "+ objConsulta.getId() + " "+objConsulta.getNome());
+        else Log.d("db_log", "onCreate: Não encontrado ");
+
         /*ClienteORM orm;
 
         for (int i = 2; i < 35; i++) {
@@ -44,13 +50,6 @@ public class MainActivity extends AppCompatActivity {
             clienteORMController.insert(orm);
         }*/
 
-
-        listaDeClientes = clienteORMController.listar();
-
-        for (ClienteORM obj : listaDeClientes) {
-
-            Log.d("db_log", "onCreate: " + obj.getId() + " " + obj.getNome());
-        }
 
     }
 }
