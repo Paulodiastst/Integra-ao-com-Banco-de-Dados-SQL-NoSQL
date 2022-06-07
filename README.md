@@ -82,3 +82,13 @@ Ao longo do curso, você desenvolvedor um projeto mobile modelo, implementará t
 
   <p align="center">
 <img src="https://user-images.githubusercontent.com/79487813/172235551-44d25eae-fd3e-4f7f-8d7e-ca7b7f29a5b9.png"/></P>
+
+## 📝 Implementação do CRUD NoSQL - Método Realm para Insert.
+
+  <p align="center">
+<img src="https://user-images.githubusercontent.com/79487813/172269631-beb09f94-d784-47ed-990f-612095f21124.png"/></P>
+
+## 📝 Implementação do CRUD NoSQL - Método Realm para Update.
+
+  <p align="center">
+<img src="https://user-images.githubusercontent.com/79487813/172269385-ae326095-a750-4dcb-a71b-c52500df3867.png"/></P>
